@@ -1,0 +1,30 @@
+main {
+    background-color: grey;
+}
+
+/* #grid1 {
+    text-align: center;
+} */
+
+#grid1 img {
+    display: block;
+    /* max-width: 100%; */
+    width: 100%;
+    height: auto;
+}
+
+#grid2 {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+#grid2 img {
+    width: 10%;
+    height: 10%;
+    border-radius: 70px;
+    border-color: black;
+    border-style: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
