@@ -240,6 +240,33 @@ nav {
     grid-row: 6/7;
 }
 
+.fishing {
+    margin: 150px auto;
+    grid-column: 6/10;
+    grid-row: 2/3;
+    border: 10px solid #d9c2a3;
+    width: 650px;
+    height: 425px;
+    float: right;
+}
+
+.faq {
+    font-weight: 700;
+    font-family: var(--heading-font);
+    grid-column: 2/10;
+    grid-row: 1/2;
+}
+
+.text {
+    color: black;
+    font-family: var(--paragraph-font);
+    grid-column: 2/10;
+    grid-row: 2/3;
+    padding: 5px;
+
+}
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
