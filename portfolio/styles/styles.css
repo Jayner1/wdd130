@@ -264,7 +264,7 @@ nav a:hover {
 .img-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
 }
 
 .about {
